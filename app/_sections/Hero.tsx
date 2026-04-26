@@ -16,7 +16,7 @@ export default function Hero() {
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
       <div>
-        <Header className="py-15 px-15" />
+        <Header className="py-15 px-20 2xl:px-30" />
       </div>
       <div className="absolute inset-0 -z-10 p-8">
         <video
