@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { inter } from "@/lib/font";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://itlifebd-vercel.app"),
   title: "Fitlife GYM - Your Ultimate Fitness Destination",
   description:
     "Discover Fitlife GYM, your ultimate fitness destination. We offer state-of-the-art facilities, expert trainers, and a supportive community to help you achieve your health and wellness goals. Join us today and transform your fitness journey with personalized workout plans, group classes, and nutrition guidance. Your path to a healthier lifestyle starts here at Fitlife GYM.",

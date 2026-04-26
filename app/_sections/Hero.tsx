@@ -25,11 +25,7 @@ export default function Hero() {
           playsInline
           className="h-full w-full object-cover rounded-4xl"
         >
-          <source
-            src="https://pub-2593b1c3b7a14e21989c27d38f3a4612.r2.dev/trademil.mp4"
-            type="video/mp4"
-          />
-          <source src="/trademil.mp4" type="video/mp4" />
+          <source src="/trademil.webm" type="video/webm" />
         </video>
       </div>
 
