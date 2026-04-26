@@ -49,7 +49,7 @@ export default function Hero() {
               Explore Pulse
             </Button>
           </div>
-          <div className="mt-15 flex items-start justify-between gap-5">
+          <div className="mt-15 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 items-start justify-between gap-5">
             <div className="rounded-[24px] border border-white/20 bg-[linear-gradient(121deg,rgba(45,50,60,0.40)_0%,rgba(20,22,28,0.80)_100%)] shadow-[0_8px_32px_0_rgba(0,0,0,0.50),0_2px_10px_1px_rgba(255,255,255,0.05)_inset] backdrop-blur-md p-6">
               <div className="flex items-center gap-4 mb-5">
                 <div>

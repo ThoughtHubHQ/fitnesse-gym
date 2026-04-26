@@ -26,7 +26,7 @@ export default function Header({className}: {className?: string}) {
   ];
 
   return (
-    <header className={`flex items-center justify-between bg-transparent absolute top-0 left-0 w-full z-10 ${className}`}>
+    <header className={`px-10 flex items-center justify-between bg-transparent absolute top-0 left-0 w-full z-10 ${className}`}>
       <div className="flex items-center">
         <Image
           src="/logo/logo.svg"
