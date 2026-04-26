@@ -22,6 +22,7 @@ export default function Hero() {
         <video
           autoPlay
           loop
+          muted
           playsInline
           className="h-full w-full object-cover rounded-4xl"
         >
