@@ -22,7 +22,6 @@ export default function Hero() {
         <video
           autoPlay
           loop
-          muted
           playsInline
           className="h-full w-full object-cover rounded-4xl"
         >
@@ -30,7 +29,7 @@ export default function Hero() {
         </video>
       </div>
 
-      <div className="relative z-10 mt-20 flex min-h-screen flex-col px-20">
+      <div className="relative z-10 mt-20 flex min-h-screen flex-col px-10 2xl:px-20">
         <div className="flex flex-col items-start justify-center min-h-screen px-10">
           {heroText.map((text, index) => (
             <h1
